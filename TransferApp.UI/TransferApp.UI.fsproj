@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Resources.fs" />
+    <Compile Include="Shared.fs" />
+    <Compile Include="SubModel.Prepare.fs" />
+    <Compile Include="SubModel.Run.fs" />
+    <Compile Include="MainModel.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elmish.WPF" Version="3.5.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TransferApp\TransferApp.fsproj" />
+    <ProjectReference Include="..\TransferApp.Xaml\TransferApp.Xaml.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="8.0.400" />
+  </ItemGroup>
+
+</Project>

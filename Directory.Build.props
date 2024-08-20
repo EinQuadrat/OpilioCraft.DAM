@@ -1,0 +1,9 @@
+<Project>
+    <PropertyGroup>
+        <Authors>Carsten Schäfer</Authors>
+        <RepositoryUrl>https://github.com/EinQuadrat/OpilioCraft.DAM.git</RepositoryUrl>
+        <PackageTags>OpilioCraft;DAM;FSharp</PackageTags>
+        <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    </PropertyGroup>
+
+</Project>
